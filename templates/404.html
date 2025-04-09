@@ -1,0 +1,49 @@
+<!-- templates/404.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Not Found - 404</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 1.25rem;
+            margin-top: 0.5rem;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <a href="{% url 'home' %}">Go back to Home</a>
+</body>
+</html>
