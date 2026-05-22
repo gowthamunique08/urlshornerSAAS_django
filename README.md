@@ -2,9 +2,6 @@
 
 A modern **URL Shortener SaaS Platform** built using **Django**, allowing users to shorten long URLs, manage links, track analytics, and improve link sharing efficiency.
 
-## 🚀 Live Demo
-(Add deployed link here if available)
-
 ## 📌 Features
 
 ✅ User Authentication (Login / Register)
